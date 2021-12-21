@@ -1,0 +1,30 @@
+.btn{
+    width: fit-content;
+    background-color: var(--blue);
+    padding: 22px 60px;
+    border: none;
+    border-radius: 40px 5px;
+    display: inline;
+    cursor: pointer;
+
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.btn--hollow,
+.btn--full:hover{
+    background-color: transparent;
+    outline: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.btn--full,
+.btn--hollow:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
