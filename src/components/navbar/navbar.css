@@ -3,9 +3,6 @@
     align-items: center;
     justify-content: space-between;
     margin: 70px 135px;
-    /* width: 1100px; */
-    /* margin: 70px auto; */
-    border: 1px solid #ccc;
 }
 
 .navbar__logo h1{
