@@ -1,0 +1,33 @@
+.logos{
+    margin: 171px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    position: relative;
+}
+.logos img[alt="chase"]{
+    width: 137px;
+    height: 25px;
+}
+.logos img[alt="asana"]{
+    width: 122px;
+    height: 24px;
+}
+.logos img[alt="buzzfeed"]{
+    width: 120px;
+    height: 20px;
+}
+.logos img[alt="toggl"]{
+    width: 95px;
+    height: 32px;
+}
+.logos img[alt="walmart"]{
+    width: 132px;
+    height: 32px;
+}
+.logos img[alt="curve"]{
+    position: absolute;
+    top: -1600%;
+    left: -20%;
+}

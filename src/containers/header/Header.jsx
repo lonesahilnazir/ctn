@@ -3,7 +3,6 @@ import React from 'react'
 import { Button } from '../../components'
 
 import './header.css'
-import img from '../../assets/img1.png'
 const Header = () => {
     return (
         <div className='header'>
