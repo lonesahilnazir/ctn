@@ -1,0 +1,39 @@
+.stats{
+    margin: 100px;
+    font-family: var(--font);
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.stats svg{
+    position: absolute;
+    top: -15px;
+    left: -3px;
+    z-index: -1;
+}
+
+.orange{
+    fill: var(--orange);
+}
+.blue{
+    fill: var(--blue);
+}
+.green{
+    fill: var(--green);
+}
+
+.stats span:nth-child(2){
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    color: var(--dark-grey);
+}
+
+.stats span:nth-child(3){
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--grey);
+}
