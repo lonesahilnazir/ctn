@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button } from '../../components'
+import { Button, Stats } from '../../components'
 
 import './header.css'
 const Header = () => {
@@ -11,6 +11,11 @@ const Header = () => {
                 <p>Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.</p>
                 <Button text="Explore" class="btn btn--full" />
                 <Button text="Contact Us" class="btn btn--hollow" />
+                <div className='stats-container'>
+                    <Stats colorClass='orange' number='25,356' text='Projects Done' />
+                    <Stats colorClass='blue' number='15,200' text='Buildings Done' />
+                    <Stats colorClass='green' number='350+' text='Total Employees' />
+                </div>
             </div>
             <div className='header__image'>
                 <div className='showpiece'/>
