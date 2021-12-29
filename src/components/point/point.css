@@ -1,0 +1,41 @@
+.point{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.point div{
+    min-width: 76px;
+    height: 76px;
+    border-radius: 5px 38px 5px 38px;
+    z-index: -1;
+    margin-right: 63px;
+}
+
+.orange-bullet{
+    background-color: var(--orange);
+}
+.blue-bullet{
+    background-color: var(--blue);
+}
+.green-bullet{
+    background-color: var(--green);
+}
+
+.point span{
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    color: var(--dark-grey);
+    position: absolute;
+    top: -26px;
+    left: 29px;
+}
+
+.point p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--grey);
+}
