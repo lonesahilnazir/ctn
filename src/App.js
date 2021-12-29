@@ -11,6 +11,7 @@ const App = () => {
             <Navbar />
             <Header />
             <Logos />
+            <WhyChooseUs />
         </div>
     )
 }
