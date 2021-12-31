@@ -17,10 +17,10 @@ const Engineer = (props) => {
             </svg>
             </div>
             <img className='engineer__photo' src={props.imgUrl} alt="engineer" />
-            <span className='engineer__name'>sahil nazir</span>
-            <span className='engineer__address'>Kashmir</span>
-            <span className='engineer__phone'>123-545-4564</span>
-            <span className='engineer__email'>sahilnazir@mail.com</span>
+            <span className='engineer__name'>{props.name}</span>
+            <span className='engineer__address'>{props.address}</span>
+            <span className='engineer__phone'>{props.phone}</span>
+            <span className='engineer__email'>{props.email}</span>
         </div>
     )
 }
