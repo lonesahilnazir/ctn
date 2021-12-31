@@ -1,0 +1,48 @@
+.engineer{
+    font-weight: 500;
+    width: 362px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.engineer__icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0;
+}
+
+.engineer__photo{
+    height: 120px;
+    width: 120px;
+    margin: 19px 0 22px;
+}
+
+.engineer__name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark-grey);
+}
+
+.engineer__address{
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    clear: var(--dark-grey);
+    margin: 7px 0 47px;
+}
+
+.engineer__phone{
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--grey);
+}
+
+.engineer__email{
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--blue);
+    margin: 8px 0 0;
+}
