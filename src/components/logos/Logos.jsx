@@ -9,7 +9,7 @@ import curve from '../../assets/curve.svg'
 
 const Logos = () => {
     return (
-        <div class='logos'>
+        <div className='logos'>
             <img src={curve} alt='curve' />
             <img src={chase} alt="chase" />
             <img src={asana} alt="asana" />
