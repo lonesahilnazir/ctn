@@ -1,0 +1,44 @@
+.ourteam{
+    width: 80%;
+    margin: 140px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+}
+
+.ourteam__heading h2{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+    color: var(--dark-grey);
+}
+
+.ourteam__heading p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--grey);
+    max-width: 670px;
+}
+
+.ourteam__engineers{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1350px){
+    .engineer:nth-child(3){
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 900px){
+    .engineer:nth-child(2){
+        margin-top: 50px;
+    }
+}
