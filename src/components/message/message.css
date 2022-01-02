@@ -1,0 +1,63 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/img3.png');
+    background-size: cover;
+    background-position: center;
+    padding: 176px 20% 250px;
+    color: var(--white);
+    width: 100%;
+}
+
+.message h2{
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 76px;
+    margin-bottom: 60px;
+}
+
+.message p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    position: relative;
+}
+
+.message p svg{
+    position: absolute;
+}
+
+.message p svg:first-of-type{
+    top: -65px;
+    left: -90px;
+}
+
+.message p svg:last-of-type{
+    transform: rotate(180deg);
+    right: -90px;
+    bottom: -65px;
+}
+
+@media screen and (max-width: 900px){
+    .message{
+        padding: 100px 10% 150px;
+    }
+
+    .message p svg{
+        width: 50px;
+        height: 20px;
+    }
+
+    .message p svg:first-of-type{
+        top: -20px;
+        left: -50px;
+    }
+    
+    .message p svg:last-of-type{
+        transform: rotate(180deg);
+        right: -50px;
+        bottom: -20px;
+    }
+}

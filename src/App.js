@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Blogs, ContactUs, Header, Footer, OurTeam, WhyChooseUs } from './containers'
-import { Engineer, Logos, Navbar } from './components'
+import { Engineer, Logos, Navbar, Message } from './components'
 
 import './App.css';
 
@@ -13,6 +13,7 @@ const App = () => {
             <Logos />
             <WhyChooseUs />
             <OurTeam />
+            <Message />
         </div>
     )
 }
