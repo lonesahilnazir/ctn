@@ -1,0 +1,63 @@
+.contactform{
+    width: fit-content;
+}
+
+.form > div{
+    height: fit-content;
+    position: relative;
+}
+
+.form__input{
+    display: block;
+    width: 489px;
+    height: 64px;
+    border-radius: 7px;
+    background: #f2f2f2;
+    border: none;
+    padding: 20px 24px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--dark-grey);
+}
+
+.form__input:hover,
+.form__input:focus,
+.form__input:active,
+.form__input:not(:placeholder-shown).form__input:not(:focus){
+    border: 1px solid var(--blue);
+    background: transparent;
+    outline: none;
+}
+
+.form__input#email{
+    margin: 20px 0;
+}
+
+.form__input#message{
+    width: 489px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.form__label{
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--grey);
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.form__input:focus ~ label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label{
+    top: -12px;
+    font-size: 15px;    
+    color: var(--blue);
+    background: var(--white);
+}
+
+button{
+    margin-top: 30px;
+}

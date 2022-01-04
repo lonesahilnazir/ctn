@@ -1,9 +1,31 @@
 import React from 'react'
+import { Button } from '..'
+
+import './contactform.css'
+
 
 const ContactForm = () => {
     return (
-        <div>
-            ContactForm
+        <div className='contactform'>
+            <form className='form'>
+                <div className='form__name'>
+                    <input className='form__input' type="text" id="name" name="name" placeholder=" " />
+                    <label className='form__label' For="name">Name</label>
+                </div>
+                <div className='form__email'>
+                    <input className='form__input' type="email" id="email" name="email" placeholder=" " />
+                    <label className='form__label' For="email">Email</label>
+                </div>
+                <div className='form__subject'>
+                    <input className='form__input' type="text" id="subject" name="subject" placeholder=" " />
+                    <label className='form__label' For="subject">Subject</label>
+                </div>
+                <div className='form__message'>
+                    <input className='form__input' id="message" name="message" placeholder=" " />
+                    <label className='form__label' For="message">Message</label>
+                </div>
+                <Button text="Send Message" class="btn btn--full" />
+            </form>
         </div>
     )
 }
