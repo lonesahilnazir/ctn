@@ -14,3 +14,20 @@ a{
     text-decoration: none;
     color: unset;
 }
+/* html scrollbar */
+html{
+    scrollbar-width: thin;
+    scrollbar-color: var(--blue) var(--white);
+    scrollbar-arrow-color: brown;
+}
+html::-webkit-scrollbar{
+    width: 8px;
+}
+html::-webkit-scrollbar-thumb:hover
+{
+    background: var(--orange);
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--blue);
+    border-radius: 8px;
+}
