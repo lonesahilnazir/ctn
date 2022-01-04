@@ -1,0 +1,25 @@
+.newsletter{
+    max-width: 556px;
+    margin: 140px auto;
+    text-align: center;
+}
+
+.newsletter h2{
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 56px;
+    text-transform: capitalize;
+    color: var(--dark-grey);
+}
+
+.newsletter p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--grey);
+    margin: 40px 0;
+}
+
+.newsletter .btn{
+    margin-top: 0;
+}
