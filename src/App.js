@@ -15,6 +15,7 @@ const App = () => {
             <OurTeam />
             <Message />
             <ContactUs />
+            <Blogs />
         </div>
     )
 }
