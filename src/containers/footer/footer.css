@@ -1,0 +1,134 @@
+.footer{
+    max-width: 1130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.footer__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h1{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: -0.06em;
+    color: var(--blue);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.footer p,
+.footer a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--grey);
+    max-width: 230px;
+}
+
+.footer a{
+    margin-bottom: 20px;
+}
+
+.footer h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--dark-grey);
+    margin-bottom: 40px;
+}
+
+.footer__form{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+    position: relative;
+}
+
+.footer__form input{
+    background: #f2f2f2;
+    height: 40px;
+    width: 135px;
+    border: none;
+    margin: 20px 0;
+    margin-right: 20px;
+}
+
+.footer__form input::placeholder{
+    font-size: 14px;
+}
+
+.footer__form input:hover,
+.footer__form input:focus,
+.footer__form input:active,
+.footer__form input:not(:placeholder-shown).form__input:not(:focus){
+    border: 1px solid var(--blue);
+    background: transparent;
+    outline: none;
+}
+
+.footer__form label{
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--grey);
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.footer__form input:focus ~ label,
+.footer__form input:not(:placeholder-shown).footer__form input:not(:focus) ~ .form__label{
+    top: -12px;
+    font-size: 15px;    
+    color: var(--blue);
+    background: var(--white);
+}
+
+.footer__form button{
+    border: none;
+    margin-top: 0;
+    height: 40px;
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+}
+
+.footer .footer__social-icons{
+    width: 117px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footer svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer .footer__copyright{
+    margin: 108px auto 40px;
+}
+.footer .footer__copyright p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--grey);
+    max-width: none;
+}
