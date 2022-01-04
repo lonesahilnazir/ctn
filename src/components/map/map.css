@@ -1,0 +1,10 @@
+.map{
+    max-width: 782.45px;
+    max-height: 500px;
+}
+
+.map img{
+    /* responsive image */
+    width: 100%;
+    height: auto;
+}
