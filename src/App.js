@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Blogs, ContactUs, Header, Footer, OurTeam, WhyChooseUs } from './containers'
-import { Engineer, Logos, Navbar, Message } from './components'
+import { Logos, Navbar, Message } from './components'
 
 import './App.css';
 
@@ -14,6 +14,7 @@ const App = () => {
             <WhyChooseUs />
             <OurTeam />
             <Message />
+            <ContactUs />
         </div>
     )
 }

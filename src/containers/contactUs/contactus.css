@@ -1,0 +1,47 @@
+.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 140px auto;
+}
+
+.contactus__heading{
+    max-width: 672px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.contactus__heading h2{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+    color: var(--dark-grey)
+}
+
+.contactus__heading p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--grey);
+}
+
+.contactus__body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactus__form{
+    margin-right: 32px;
+}
+
+@media screen and (max-width: 1304px){
+    .contactus__form{
+        margin-right: 0;
+    }
+
+    .contactus__map{
+        margin-top: 80px;
+    }
+}
