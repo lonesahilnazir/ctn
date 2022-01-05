@@ -23,6 +23,7 @@
     font-size: 18px;
     line-height: 28px;
     position: relative;
+    max-width: 1300px;
 }
 
 .message p svg{
