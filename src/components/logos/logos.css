@@ -1,10 +1,13 @@
 .logos{
-    margin: 171px auto;
+    margin: 0px auto 140px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 1000px;
     position: relative;
+}
+.logos img{
+    margin: 10px;
 }
 .logos img[alt="chase"]{
     width: 137px;
@@ -27,7 +30,15 @@
     height: 32px;
 }
 .logos img[alt="curve"]{
+    max-width: 632px;
+    max-height: 632px;
     position: absolute;
-    top: -1600%;
-    left: -20%;
+    top: -500px;
+    left: -200px;
+}
+
+@media screen and (max-width: 1024px){
+    .logos{
+        margin: 200px auto 100px;
+    }
 }
