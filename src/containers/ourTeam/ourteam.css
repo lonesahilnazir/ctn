@@ -1,5 +1,5 @@
 .ourteam{
-    width: 80%;
+    max-width: 1300px;
     margin: 140px auto;
     display: flex;
     flex-direction: column;
