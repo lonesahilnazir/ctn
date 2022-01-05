@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 70px 135px;
+    max-width: 1200px;
+    margin: 70px auto;
 }
 
 .navbar__logo h1{
@@ -40,4 +41,57 @@
     position: absolute;
     left: 50%;
     top: 100%;
+}
+
+.navbar__toggle-menu{
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .navbar{
+        padding: 0 50px;
+    }
+    .navbar__toggle-menu{
+        display: block;
+        border: none;
+        margin: 0;
+        z-index: 10;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+    }
+    
+    .navbar__toggle-menu span{
+        height: 3px;
+        width: 30px;
+        background: var(--dark-grey);
+        display: block;
+        margin-top: 5px;
+        top: 10px;
+    }
+    
+    .navbar__toggle-menu--open span:nth-child(1){
+        transform: rotate(45deg);
+        position: absolute;
+    }
+    .navbar__toggle-menu--open span:nth-child(2){
+        transform: rotate(-45deg);
+        position: absolute;
+    }
+    .navbar__toggle-menu--open span:nth-child(3){
+        display: none;
+    }
+    
+    .navbar__links--block{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        text-align: center;
+    } 
+    .navbar__links--hidden{
+        display: none;
+    }
 }
