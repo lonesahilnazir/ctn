@@ -1,7 +1,6 @@
 .whychooseus {
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
+  max-width: 1300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +9,7 @@
 .whychooseus__heading{
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   margin: 0 auto 109px;
 }
 
@@ -45,12 +44,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 .whychooseus__content img{
   margin-right: 68px;
+  width: 100%;
+  height: auto;
+  max-width: 584px;
 }
 
 .whychooseus__content .whychooseus__content__points{
@@ -59,7 +61,7 @@
   justify-content: space-between;
   align-items: center;
   height: 614px;
-  width: 500px;
+  max-width: 500px;
 }
 
 @media (max-width: 1224px) {
