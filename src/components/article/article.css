@@ -31,7 +31,10 @@
 }
 
 .article .btn:hover{
-    background: var(--white);
-    color: black;
+    color: rgb(35, 39, 61);
     mix-blend-mode: screen;
+}
+
+.btn--hollow::before{
+    background-color: var(--white) !important;
 }

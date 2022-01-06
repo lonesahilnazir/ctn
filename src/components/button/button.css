@@ -14,17 +14,47 @@
     line-height: 20px;
     text-align: center;
     letter-spacing: -0.5px;
+    position: relative;
+    transition: all 0.3s ease-in;
 }
 
 .btn--hollow,
 .btn--full:hover{
     background-color: transparent;
     outline: 1px solid var(--blue);
-    color: var(--blue);
+    color: var(--blue);transform: 10s;
 }
 
 .btn--full,
 .btn--hollow:hover{
-    background-color: var(--blue);
     color: var(--white);
+}
+
+.btn--full{
+    background-color: transparent;
+}
+
+.btn::before{
+    width: 100%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    border-radius: 40px 5px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn--hollow::before,
+.btn--full:hover::before{
+    height: 0%;
+    background-color: var(--blue);
+}
+
+.btn--full::before,
+.btn--hollow:hover::before{
+    height: 100%;
+    background: var(--blue);
 }
