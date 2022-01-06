@@ -4,6 +4,7 @@
     justify-content: space-between;
     max-width: 1200px;
     margin: 70px auto;
+    animation: navbar 1s ease-out;
 }
 
 .navbar__logo h1{
@@ -93,5 +94,32 @@
     } 
     .navbar__links--hidden{
         display: none;
+    }
+}
+
+@keyframes navbar {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    16% {
+        transform: translateY(-80%);
+        opacity: 0.2;
+    }
+    33% {
+        transform: translateY(-60%);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateY(-40%);
+        opacity: 0.6;
+    }
+    70% {
+        transform: translateY(-20%);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
     }
 }
